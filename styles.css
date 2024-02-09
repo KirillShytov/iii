@@ -1,0 +1,36 @@
+.arrow {
+  fill: #f6f6f6;
+}
+.scroll-up-button {
+  box-sizing: border-box;
+  position: fixed;
+  border-radius: 50%;
+  border: none;
+  background-color: #7e847f;
+  cursor: pointer;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  padding: 14px 15px;
+  opacity: 0.5;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+}
+.active {
+  opacity: 0;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+}
+.scroll-up-button:hover {
+  background-color: #565151;
+  transition: background-color 0.5s linear;
+}
+
+@media only screen and (max-width: 365px) {
+  .scroll-up-button {
+    padding: 10px 10px;
+  }
+  .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
