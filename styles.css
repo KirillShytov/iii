@@ -28,9 +28,4 @@
   .scroll-up-button {
     padding: 10px 10px;
   }
-  .arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
